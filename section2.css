@@ -1,0 +1,131 @@
+.section {
+    height: 70vh;
+    background-color: #05051f;
+    display: flex;
+    justify-content: center;
+}
+
+.section .d1 {
+    width: 50%;
+    position: relative;
+}
+
+.bd {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 20px;
+}
+
+.section .d1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section .d1:hover,
+.section .d2 .d22:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgb(226, 224, 224);
+}
+
+.section .d2 {
+    width: 30%;
+}
+
+.section .d2 .d22 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.section .d2 .d22 .bd2 {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 20px;
+}
+
+.section .d2 div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.section2 {
+    display: flex;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2>div {
+    width: 22%;
+    height: 65%;
+    position: relative;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    opacity: 1;
+
+}
+.section2>div:hover{
+    box-shadow: none;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    opacity: 0.8;
+}
+.btnDiv{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 11;
+}
+.shadow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 10px 10px 50px black;
+    z-index: 10;
+}
+
+.section2>div>img {
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+}
+button{
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    width: 100px;
+}
+footer{
+    background-color: #05051f;
+    color: white;
+    font-size: 15px;
+}
+#F1{
+    display: flex;
+    padding-left: 70px;
+}
+#F1 h1{
+    padding-left: 60px;
+}
+#foot{
+    width: 100%;
+    background-color: #01010e;
+}
+/* #foot i,h6{
+    color: grey;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#id{
+    display: flex;
+} */

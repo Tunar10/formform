@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    border: 80px solid orange;
+    position: relative;
+}
+body{
+    background-color: palegreen;
+    position: absolute;
+}

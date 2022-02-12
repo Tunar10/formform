@@ -1,0 +1,27 @@
+form {
+    background: url('https://static8.depositphotos.com/1370441/847/i/600/depositphotos_8470542-stock-photo-blue-ocean-wave.jpg');
+    background-size: cover;
+    width: 50%;
+    margin: auto;
+    background-position: top;
+}
+.logo{
+    text-align: center;
+}
+.logo img {
+    width: 40%;
+}
+.in1 input {
+width: 80%;
+border: none;
+border-bottom: 2px solid white;
+background-color: inherit;
+}
+button {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(255, 40, 75);
+    border: none;
+    width: 40%;
+height: 40px;
+}

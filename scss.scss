@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    form {
+        width: 50vh;
+        padding: 20px;
+        background-color: rgb(5, 5, 87);
+        border-radius: 4px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        .container {
+            img {
+                width: 90px;
+                height: 90px;
+                text-align: center;
+                border-radius: 100px;
+            }
+
+            .r1 {
+                font-family: 'Source Sans Pro', sans-serif;
+
+                h4 {
+                    color: white;
+                }
+
+                p {
+                    color: grey;
+                }
+            }
+
+            .r2 {
+                margin-top: 20px;
+
+                input {
+                    background-color: rgb(5, 5, 87);
+                    border: none;
+                    border-bottom: 1px solid grey;
+                    outline: none;
+                    color: white;
+                }
+
+                i {
+                    color: white;
+                    text-align: left;
+                }
+
+                .c1 {
+                    position: relative;
+                    float: left;
+                }
+
+                .c2 {
+                    position: relative;
+                    float: left;
+                }
+            }
+
+            .r3 {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    text-align: right;
+                }
+
+                button {
+                    background-color: pink;
+                }
+            }
+
+            .r4 {
+                p {
+                    color: white;
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    text-transform: uppercase
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f1efef;
+}
+
+body .container {
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 200px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid grey;
+  background-color: #f1efef;
+}
+
+body .container input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+body .container .row .r1 button {
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  background-color: #e7e6e6;
+}
+
+body .container .row .r1 button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: white;
+  background-color: #0077ff;
+}
+
+body .container .row .r2 {
+  border: none;
+}
+
+body .container .row .r2 input {
+  border: grey 1px solid;
+  margin-left: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+body .container .row .r3 {
+  display: block;
+}
+
+body .container .row .r3 input {
+  padding-left: 10px;
+}
+
+body .container .row .r5 {
+  margin-left: 4px;
+}
+
+body .container .row .r5 label {
+  margin-left: -10px;
+}
+
+body .container .row .r6 input {
+  margin-left: 40px;
+}
+
+body .container .row .r6 label {
+  margin-left: 30px;
+}
+
+body .container .row .rb {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+body .container .row hr {
+  margin-left: 190px;
+}
+/*# sourceMappingURL=formform.css.map */

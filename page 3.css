@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 145, 255);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+form{
+    width: 60%;
+    height: 90vh;
+    background-color: white;
+    position: relative;
+}
+#nav ul {
+display: flex;
+list-style: none;
+height: 70%;
+align-items: center;
+justify-content: center;
+}
+#nav ul li{
+    padding: 15px;
+    margin: 0 20px;
+    color: grey;
+}
+#s{
+    color: rgb(0, 145, 255) !important;
+    border-bottom: 2px solid rgb(0, 145, 255);
+}
+h1{
+    margin: 25px 0;
+    text-align: center;
+    text-transform: capitalize;
+}

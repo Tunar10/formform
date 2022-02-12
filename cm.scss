@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+
+    .container {
+        border-radius: 10px;
+        min-height: 50vh;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        display: flex;
+
+
+        h5 {
+            width: 100%;
+            margin-left: 10px;
+
+            b {
+                border-bottom: 1px solid grey;
+                padding-bottom: 10px;
+            }
+        }
+
+        .r1 {
+            background-color: rgb(216, 213, 213);
+            padding: 0;
+            ul{
+                li{
+                    list-style: none;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .r2 {
+            background-color: white;
+            padding-right: 100px;
+        }
+    }
+}

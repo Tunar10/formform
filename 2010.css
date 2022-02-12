@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(117, 132, 146);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#F1{
+    height: 80vh;
+    width: 27%;
+    background-image: url("https://static.wikia.nocookie.net/pogod/images/3/3a/%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0.jpg/revision/latest?cb=20181224151953&path-prefix=ru");
+    background-size: cover;
+    background-position: center;
+}
+#F2{
+    height: 55vh;
+    width: 27%;
+    background-image: url("https://static.wikia.nocookie.net/pogod/images/3/3a/%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0.jpg/revision/latest?cb=20181224151953&path-prefix=ru");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    position: relative;
+    box-shadow: 5px 5px 20px black;
+    z-index: 0;
+    bottom: 30px;
+
+}
+h2{
+    text-align: center;
+    top: 200px;
+    color: black;
+}
+form .op{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+}
+.cont{
+    position: relative;
+    z-index: 2;
+}
+.inpDiv, .inpDiv1, .btnDiv{
+    text-align: center;
+}
+input{
+     height: 40px;
+     width: 300px;
+}
+button{
+    background-color: rgb(19, 197, 252) ;
+    width: 50%;
+    height: 35px;  
+    border: none;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+#F15{
+    height: 45px;
+color: white;
+background-color: red;
+width: 50%;
+}
+#F100{
+    color: white;
+    font-family: Arial Narrow, sans-serif;
+}

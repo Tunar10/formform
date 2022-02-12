@@ -1,0 +1,83 @@
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: pink;
+}
+
+body h4,
+body h5 {
+  font-family: Gill Sans, sans-serif;
+}
+
+body form {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+body form button {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 8px;
+}
+
+body form .b {
+  padding-right: 70px;
+  color: white;
+  background-color: #76b4fa;
+  border: 3px solid #0077ff;
+}
+
+body form .b:hover {
+  border: 3px solid #76b4fa;
+  background-color: white;
+  color: #76b4fa;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body form .b1:hover {
+  background-color: #76b4fa;
+  border: 3px solid grey;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body form .b1 {
+  padding-right: 100px;
+  color: #0077ff;
+  border: 2px solid grey;
+}
+
+body form input {
+  height: 25px;
+  width: 85%;
+  border-radius: 7px;
+  padding: 8px;
+  margin-top: 10px;
+  border: 2px solid grey;
+}
+
+body form .s {
+  margin-left: 5%;
+  border: none;
+  color: white;
+  width: 85%;
+  margin-bottom: 10%;
+  background-color: #0077ff;
+}
+
+body form a {
+  text-decoration: none;
+  margin-left: 25%;
+  color: #0077ff;
+}
+/*# sourceMappingURL=bra.css.map */

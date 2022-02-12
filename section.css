@@ -1,0 +1,21 @@
+section h1{
+    padding: 20px;
+    font-size: 35px;
+}
+section #container{
+    display: flex;
+    justify-content: space-around;
+}
+section #container .blocks{
+width: 29%;
+}
+section #container .blocks img{
+    width: 100%;
+}
+section #container .blocks h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+section #container .blocks p{
+    font-size: 16px;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(22, 22, 22);
+    display: grid;
+    place-items: center;
+    position: relative;
+
+    .sun {
+        height: 40px;
+        width: 40px;
+        border-radius: 100px;
+        background-color: yellow;
+    }
+
+    .containerPlanet {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid grey;
+        border-radius: 100%;
+        animation: animated1 5s linear infinite;
+
+        .planet {
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            border-radius: 100%;
+
+            top: 40%;
+        }
+    }
+
+    .cp1 {
+        width: 100px;
+        height: 100px;
+        animation: animated1 5s linear infinite;
+
+        .planet {
+            height: 25px;
+            width: 25px;
+            background-color: orangered;
+            right: -12.5px;
+        }
+    }
+    .cp2 {
+        width: 200px;
+        height: 200px;
+        animation: animated1 8s linear infinite;
+
+        .planet {
+            height: 25px;
+            width: 25px;
+            background-color: blue;
+            right: -12.5px;
+        }
+    }
+    .cp3 {
+        width: 300px;
+        height: 300px;
+        animation: animated1 4s linear infinite;
+
+        .planet {
+            height: 30px;
+            width: 30px;
+            background-color: violet;
+            right: -15px;
+        }
+    }
+    .cp4 {
+        width: 400px;
+        height: 400px;
+        animation: animated1 7s linear infinite;
+
+        .planet {
+            height: 30px;
+            width: 30px;
+            background-color: grey;
+            right: -15px;
+        }
+    }
+    .cp5 {
+        width: 500px;
+        height: 500px;
+        animation: animated1 9s linear infinite;
+
+        .planet {
+            height: 30px;
+            width: 30px;
+            background-color: green;
+            right: -15px;
+        }
+    }
+    .cp6 {
+        width: 600px;
+        height: 600px;
+        animation: animated1 7s linear infinite;
+
+        .planet {
+            height: 30px;
+            width: 30px;
+            background-color: blue;
+            right: -15px;
+        }
+    }
+}
+
+@keyframes animated1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

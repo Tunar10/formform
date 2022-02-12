@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://i.greensite.sk/img/3663047527ad7a5c6f051f5450170.jpg");
+    background-repeat: no-repeat;
+background-size: 700px 500px;
+
+    form {
+
+        background-color:white;
+        margin-left: 500px;
+        background-size: 500px;
+
+        label {
+            margin-left: 5px;
+        }
+
+        input {
+            box-shadow: inset 0.1px 0.1px 1px grey;
+            display: block;
+        }
+
+        .d1,
+        .d2 {
+            display: inline-block;
+        }
+
+        .d5 {
+            width: 600px;
+        }
+    }
+}

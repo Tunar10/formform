@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(117, 132, 146);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 80vh;
+    width: 27%;
+    background-image: url("b.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    bottom: 30px;
+}
+h2{
+margin-right: 100px;
+    top: 200px;
+    color: white;
+}
+form .op{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+background-color: rgba(4, 4, 116, 0.6);
+z-index: 1;
+}
+.inpDiv, .inpDiv1, .btnDiv{
+    text-align: center;
+}
+input{
+     height: 40px;
+     width: 300px;
+     margin-left: 20px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgba(66, 63, 63, 0.371);
+     margin-left: 55px;
+}
+button{
+    margin-left: 90px;
+    background-color: rgb(19, 197, 252) ;
+    width: 50%;
+    height: 35px;  
+    border: none;
+    color: white;
+}
+h2{
+    text-align: center;
+    border-bottom: 2px solid rgb(19, 197, 252);
+    width: 23%;
+    margin-left: 55px;
+}
+label{
+    margin-left: 55px;
+    color: white;
+    text-transform: uppercase;
+}
+h2, span{
+    display: inline-block;
+    text-transform: uppercase;
+}
+span{
+    color: grey;
+}
+hr{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 135px;
+    cursor: pointer;
+}

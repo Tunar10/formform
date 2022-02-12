@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+background-image: url('https://c.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif');
+}
+form {
+width: 25%;
+padding: 30px;
+background-color: rgb(58, 58, 58);
+}
+.inpDiv {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(34, 34, 34);
+}
+.inpDiv i {
+    color: rgb(34, 34, 34);
+    font-size: 15px;
+}
+
+.inpDiv input {
+background-color: transparent;
+border: none;
+padding: 10px 0;
+outline: none;
+}
+
+button {
+    border-radius: 3px;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    border: none;
+    width: 90%;
+    height: 40px;
+}

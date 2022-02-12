@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bbd6824638.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+            display: block;
+        }
+        ul li{
+            display: inline-block;
+            width: 24.67%;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            font-size: 18px;
+padding: 10px;
+background-color: rgba(194, 194, 194, 194);
+transition: 0.3s;     
+}
+ul li a:hover{
+    background-color: grey;
+}
+.fa-bars{
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width:700px){
+    nav{
+width: 100px;
+text-align: center;
+    }
+    ul{
+        display: none;
+    }
+   .fa-bars{
+       display: block;
+   }
+   ul li{
+       display: block;
+       width: 100%;
+   }
+   nav:hover ul{
+       display: block !important;
+   }
+}
+
+
+
+
+nav ul li a,
+.a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    display: flex;
+
+ 
+    margin: 0 0px;
+    height: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <i class="fas fa-bars"></i>
+        <ul>
+            <li><a href="#">About</a></li><li><a href="#">Contact</a></li><li><a href="#">Home</a></li><li><a href="#">Other</a></li>
+        </ul>
+      
+    </nav>
+    </body>
+</html>

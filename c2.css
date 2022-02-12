@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: gray !important;
+}
+
+.container {
+  width: 60% !important;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.container .r1 {
+  height: 65vh;
+}
+
+.container .r1 > div {
+  height: 100%;
+  padding: 0 !important;
+  background-color: black;
+}
+
+.container .r1 > div img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .r1 form {
+  height: 100%;
+  padding: 35px 20px;
+}
+
+.container .r1 form .d1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .r1 form .d1 h2 {
+  text-transform: capitalize;
+  color: #635e5e;
+}
+
+.container .r1 form .d1 .icons {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .r1 form .d1 .icons a {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  border: 1px solid black;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: grey;
+}
+
+.container .r1 form .ibDiv {
+  margin: 15px 0;
+}
+
+.container .r1 form .ibDiv label {
+  font-weight: 800;
+  margin: 5px 0;
+}
+
+.container .r1 form .ibDiv input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.container .r1 form .ibDiv button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #ffa600;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.container .r1 form #other {
+  margin: 15px 0;
+}
+
+.container .r1 form #other a {
+  text-decoration: none;
+  color: grey;
+}
+
+.container .r1 form > p {
+  color: grey;
+}
+
+.container .r1 form > p a {
+  text-decoration: none;
+  color: #ffa600;
+}
+/*# sourceMappingURL=c2.css.map */

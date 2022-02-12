@@ -1,0 +1,48 @@
+#line{
+    margin: auto;
+    margin-top: 20px;
+    width: 55%;
+    height: 5px;
+    background-color: rgb(225, 224, 224);
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    margin-top: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#text span{
+    position: relative;
+}
+#text span div{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: -70%;
+    height: 2px;
+    transform: translateY(-50%);
+}
+#line span{
+    border-radius: 100px;
+    margin-top: -2;
+    height: 10px;
+    width: 10px;
+    border: 100%;
+    background-color: rgb(225, 224, 224);
+}
+#line #selected{
+    border-radius: 100px;
+    background-color: blue;
+    border: 1px solid rgb(225, 224, 224);
+    margin-top: -5px;
+}
+p{
+font-size: 20px;
+color: grey;
+}
+p:hover{
+    font: 30px;
+    color: blue;
+}

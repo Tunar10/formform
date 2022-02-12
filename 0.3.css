@@ -1,0 +1,71 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+section div:nth-child(1){
+    width: 35%;
+}
+section div:nth-child(1) h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+section div:nth-child(1) p{
+    margin: 30px 0;
+    font-size: 25px;
+}
+section div:nth-child(1) div{
+    width: 40%;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    padding: 30px;
+    border-radius: 8px;
+    line-height: 40px;
+    text-align: center;
+}
+section form{
+    background-color: white;
+    width: 20%;
+    padding: 50px 50px;
+    text-align: center;
+}
+section form p{
+    margin-bottom: 15px;
+}
+section form .inpDiv, section form #btnDiv{
+    margin: 15px 0;
+}
+section form .inpDiv{
+    position: relative;
+}
+section form .inpDiv label{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+background-color: white;
+padding: 5px;
+top: -12px;
+}
+section form .inpDiv input{
+width: 100%;
+padding: 15px 0;
+border: 1px solid grey;
+}
+section form #btnDiv button{
+    width: 100%;
+    padding: 15px;
+    background-color: orange;
+    border-radius: 10px;
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+}
+section form #other{
+    margin-top: 25px;
+}
+section form #other a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}

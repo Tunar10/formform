@@ -1,0 +1,105 @@
+body {
+  min-height: 100vh;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #1053f7), color-stop(0%, #836a05), color-stop(0%, #126c7a), color-stop(0%, #155199), color-stop(33%, #47c3f5), color-stop(100%, #2797ec), color-stop(100%, #0f91e5), color-stop(100%, #11a9e2), color-stop(100%, #16bad8), color-stop(100%, #0f9ce5), color-stop(100%, #0ee6e7), color-stop(100%, #10e0e4), color-stop(100%, #13d5dd), color-stop(119%, #0272bf));
+  background: linear-gradient(90deg, #020024 0%, #1053f7 0%, #836a05 0%, #126c7a 0%, #155199 0%, #47c3f5 33%, #2797ec 100%, #0f91e5 100%, #11a9e2 100%, #16bad8 100%, #0f9ce5 100%, #0ee6e7 100%, #10e0e4 100%, #13d5dd 100%, #0272bf 119%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  width: 60%;
+  padding: 130px 60px 45px 60px;
+  background-color: white;
+  position: relative;
+}
+
+form #i {
+  text-align: center;
+  font-size: 70px;
+  color: #004aff;
+  height: 100px;
+  position: absolute;
+  -webkit-box-align: 100px;
+      -ms-flex-align: 100px;
+          align-items: 100px;
+  width: 100px;
+  border-radius: 100%;
+  padding: 20px;
+  background-color: white;
+  top: -70px;
+  left: 45%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+form > p {
+  color: #004aff;
+  font-size: 24px;
+  text-align: center;
+}
+
+form .cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+  height: 165px;
+}
+
+form .cont > div {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+form .cont > div input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  outline: none;
+}
+
+form .cont > div textarea {
+  width: 95%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  outline: none;
+}
+
+form #b {
+  margin: 10px 0;
+}
+
+form #b button {
+  width: 20%;
+  padding: 8px;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  background-color: #fc4f42;
+}
+/*# sourceMappingURL=label.css.map */

@@ -1,0 +1,16 @@
+div {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(219, 215, 215);
+    position: relative;
+    animation: mymove 10s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes mymove {
+0% {box-shadow: inset 10px 3px 25px 3px grey;}
+25% {box-shadow: inset 1px 10px 20px 3px white; box-shadow: 2px 1px 10px grey;}
+50% {height: 50px; box-shadow: 2px 1px 10px grey;}
+75% {width: 80%; height: 50px;}
+  }

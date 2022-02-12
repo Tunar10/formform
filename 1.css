@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    margin: auto;
+    width: 35%;
+}
+img{
+    width: 50%;
+}
+.ip15 input{
+    border: none;
+}
+label {
+    margin-top: 10px;
+}
+input{
+    padding: 5px;
+    width: 100%;
+}
+.ip14 {
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    background-color: rgb(110, 68, 209);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input:focus{
+border: 3px solid blue;
+}

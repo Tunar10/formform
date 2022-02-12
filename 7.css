@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+}
+form{
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 30%;
+    box-shadow:  inset 5px 7px 3px -4px rgb(61, 58, 58), 5px 5px 6px 4px rgb(61, 58, 58);
+    padding: 10px;
+}
+label{
+    color: white;
+}
+div input{
+    border-radius: 20px;
+    border: none;
+    background-color: grey;
+box-shadow: 2px 3px 0px 6px rgb(70, 68, 68);
+}
+h1{
+    color: rgb(70, 68, 68);
+}
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    color: white;
+    box-shadow: 1px 1px 0px 4px rgb(70, 68, 68);
+}

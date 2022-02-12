@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url("http://cdn.magdeleine.co/wp-content/uploads/2014/05/3jPYgeVCTWCMqjtb7Dqi_IMG_8251-1400x933.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: transparent;
+    position: relative;
+    width: 35%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(58, 58, 58), 5px 0 20px rgb(58, 58, 58), -5px 0 20px rgb(58, 58, 58), 0 -5px 20px rgb(58, 58, 58);
+}
+#close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(31, 31, 31, 0.371);
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+.inpDiv,
+#btnDiv,
+#other {
+    margin: 15px 0;
+}
+
+.inpDiv input {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(31, 31, 31, 0.371);
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+#btnDiv button {
+    width: 100%;
+    background-color: rgba(57, 145, 49, 0.659);
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#chB {
+    -webkit-appearance: none;
+    padding: 5px;
+    border-radius: 4px;
+    background: rgba(3, 3, 3, .2);
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#chB:checked {
+    background: rgba(3,3,3,.4);
+}
+#chB:checked::after {
+    content: '\2714';
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    color: #fff;
+}
+#other {
+    position: relative;
+}
+
+#other label {
+    color: rgb(46, 46, 46);
+}
+
+#other a {
+    color: #232324;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}

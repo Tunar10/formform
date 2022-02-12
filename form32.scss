@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 45%;
+    padding: 15px;
+
+    h1 {
+        font-weight: 1;
+        text-transform: uppercase;
+        margin: 20px 0;
+        font-size: 40px;
+        font-family: Trebuchet MS, sans-serif;
+        background: rgb(252,69,171);
+        background: -moz-linear-gradient(90deg, rgba(252,69,171,1) 38%, rgba(194,69,252,1) 89%);
+        background: -webkit-linear-gradient(90deg, rgba(252,69,171,1) 38%, rgba(194,69,252,1) 89%);
+        background: linear-gradient(90deg, rgba(252,69,171,1) 38%, rgba(194,69,252,1) 89%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fc45ab",endColorstr="#c245fc",GradientType=1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+        display: table;
+        margin: 20px auto;
+    }
+    .inpDiv{
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+        input {
+            padding: 10px 0;
+width: 48%;
+border: none;
+border-bottom: 1px solid black;
+outline: none;
+        }
+    }
+    .inp1Div{
+     margin: 15px 0;
+     input{
+         width: 100%;
+         padding: 10px 0;
+         border: none;
+         border-bottom: 1px solid black;
+         outline: none;
+     }
+    }
+    #btnDiv{
+margin: 15px 0;
+button{
+    width: 30%;
+    padding: 10px;
+    text-transform: uppercase;
+    background: rgb(212,52,141);
+    background: -moz-linear-gradient(90deg, rgba(212,52,141,1) 38%, rgba(192,48,143,1) 43%, rgba(9,12,161,1) 89%);
+    background: -webkit-linear-gradient(90deg, rgba(212,52,141,1) 38%, rgba(192,48,143,1) 43%, rgba(9,12,161,1) 89%);
+    background: linear-gradient(90deg, rgba(212,52,141,1) 38%, rgba(192,48,143,1) 43%, rgba(9,12,161,1) 89%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d4348d",endColorstr="#090ca1",GradientType=1);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+    }
+}

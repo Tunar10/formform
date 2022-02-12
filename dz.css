@@ -1,0 +1,41 @@
+.in1 input {
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: inset 6px 5px 3px -4px grey, inset 10px 5px 6px -4px white;
+    background-color: rgb(221, 210, 210);
+}
+
+.in2 input {
+    border-radius: 15px;
+    border: none;
+    box-shadow: inset 6px 5px 3px -4px grey, inset 10px 5px 6px -4px white;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(221, 210, 210);
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    color: grey;
+}
+
+body {
+    background-color: rgb(182, 170, 170);
+}
+
+button {
+    color: rgb(160, 23, 23);
+    border: none;
+    width: 15%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(192, 190, 190);
+    box-shadow: 10px 5px 6px -4px grey, 10px 5px 3px -4px white;
+}

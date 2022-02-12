@@ -1,0 +1,46 @@
+body form {
+  margin-left: 500px;
+}
+
+body form h1 {
+  text-transform: uppercase;
+  color: #e908ca;
+  color: linear-gradient(90deg, #e908ca 17%, rgba(7, 42, 228, 0.77) 100%);
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 1;
+}
+
+body form input {
+  display: block;
+  border: none;
+  border-bottom: 2.2px solid grey;
+  margin-top: 30px;
+  width: 250px;
+  padding-bottom: 5px;
+}
+
+body form .d1, body form .d2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+body form .d3, body form .d4 {
+  display: inline-block;
+}
+
+body form .d5 {
+  width: 500px;
+}
+
+body form button {
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 30px;
+  color: white;
+  font-family: Trebuchet MS, sans-serif;
+  background: #e908ca;
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, #e908ca), to(rgba(7, 42, 228, 0.77)));
+  background: linear-gradient(90deg, #e908ca 17%, rgba(7, 42, 228, 0.77) 100%);
+}
+/*# sourceMappingURL=input.css.map */

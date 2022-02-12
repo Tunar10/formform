@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    background-color: rgb(237, 235, 235);
+}
+form{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(39, 39, 39);
+    padding: 30px 25px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+h1{
+    color: white;
+}
+.inpDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.inpDiv input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    outline: 0;
+    transition: 0.3s;
+    width: 100%;
+}
+.l1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: 0.3s;
+}
+.inpDiv:active .l1{
+    top: 0;
+}
+.inpDiv input:focus{
+    border-bottom: 1px solid skyblue;
+}
+/* .inpDiv input:focus .l1{
+    display: block !important;
+} */
+#btnDiv button{
+    padding: 10px 0;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid skyblue;
+    color: skyblue;
+    transition: 0.3s;
+}
+#btnDiv button:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 10px skyblue,0px -5px 10px skyblue,5px 0px 10px skyblue,-5px 0px 10px skyblue;
+}

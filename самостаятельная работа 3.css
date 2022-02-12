@@ -1,0 +1,74 @@
+#line{
+    margin: auto;
+    margin-top: 20px;
+    width: 55%;
+    height: 5px;
+    background-color: rgb(225, 224, 224);
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#text span{
+    position: relative;
+}
+#text span div{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: -70%;
+    transform: translateY(-50%);
+    height: 2px;
+    background-color: rgb(143, 142, 142);
+}
+#line span{
+    margin-top: -2px;
+height: 10px;
+width: 10px;
+border-radius: 100%;
+background-color: rgb(225, 224, 224);
+}
+#line #selected{
+    background-color: blue;
+    border: 3px solid rgb(225, 224, 224);
+    margin-top: -5px;
+}
+p{
+    font-size: 90px;
+    color: grey;
+    transition: 0.3s;
+    margin-left: 600px;
+    border: none;
+}
+p:hover{
+    font-size: 140px;
+    color: blue;
+}
+h1{
+    margin-left: 600px;
+font-family: Arial Narrow, sans-serif;
+color: grey;
+}
+#F1{
+    font-size: 90px;
+    color: grey;
+    transition: 0.3s;
+    margin-left: 800px;
+    margin-top: -190px;
+}
+#F1:hover{
+    font-size: 140px;
+    color: blue;
+}
+button{
+    background-color: rgb(77, 197, 228);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-left: 700px;
+}

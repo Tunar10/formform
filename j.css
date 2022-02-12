@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(239,45,134);
+    background: linear-gradient(90deg, rgba(239,45,134,1) 29%, rgba(237,23,207,1) 51%, rgba(120,14,118,1) 100%);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+form{
+width: 25%;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    width: 240px;
+}
+button{
+    height: 55px;
+    background-color: rgb(239,45,134);
+    background: linear-gradient(90deg, rgba(239,45,134,1) 29%, rgba(237,23,207,1) 51%, rgba(120,14,118,1) 100%);;
+    color: white;
+    width: 190px;
+    border-radius: 5px;
+    border: none;
+}
+form h2{
+    font-family: Arial Narrow, sans-serif;
+    color: rgb(231, 67, 95);
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.inpDiv input{
+    border: 1px solid grey;
+    padding: 10px;
+    outline: none;
+width: 95%;
+border-radius: 5px;
+}
+button[type="submit"]{
+width: 100%;
+padding: 15px 0;
+background-color: rgb(239,45,134);
+background-color: linear-gradient(90deg, rgb(239,45,134));
+color: white;
+font-size: 24px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: none;
+transition: 0.3;
+}
+.inpDiv input:focus{
+    border: 1px solid rgb(239,45,134);
+}
+button[type="submit"]:active{
+    box-shadow: 0 5px 10px rgb(239,45,134);
+}
+i{
+    color: grey;
+    position: absolute;
+}

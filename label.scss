@@ -1,0 +1,83 @@
+body {
+    min-height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(16, 83, 247, 1) 0%, rgba(131, 106, 5, 1) 0%, rgba(18, 108, 122, 1) 0%, rgba(21, 81, 153, 1) 0%, rgba(71, 195, 245, 1) 33%, rgba(39, 151, 236, 1) 100%, rgba(15, 145, 229, 1) 100%, rgba(17, 169, 226, 1) 100%, rgba(22, 186, 216, 1) 100%, rgba(15, 156, 229, 1) 100%, rgba(14, 230, 231, 1) 100%, rgba(16, 224, 228, 1) 100%, rgba(19, 213, 221, 1) 100%, rgba(2, 114, 191, 1) 119%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    padding: 130px 60px 45px 60px;
+    background-color: white;
+    position: relative;
+
+    #i {
+        text-align: center;
+        font-size: 70px;
+        color: rgba(0, 74, 255, 1);
+        height: 100px;
+        position: absolute;
+        align-items: 100px;
+        width: 100px;
+        border-radius: 100%;
+        padding: 20px;
+        background-color: white;
+        top: -70px;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
+    &>p {
+        color: rgba(0, 74, 255, 1);
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .cont {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        height: 165px;
+
+        &>div {
+            width: 49%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            input {
+                width: 95%;
+                padding: 10px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                outline: none;
+            }
+
+            textarea {
+                width: 95%;
+                height: 100%;
+                padding: 10px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                outline: none;
+            }
+        }
+    }
+
+    #b {
+        margin: 10px 0;
+
+        button {
+            width: 20%;
+            padding: 8px;
+            color: white;
+            text-transform: capitalize;
+            border: none;
+            border-radius: 13px;
+            cursor: pointer;
+            background-color: rgb(252, 79, 66);
+        }
+    }
+}

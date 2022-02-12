@@ -1,0 +1,63 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2c2c53), to(darkblue));
+  background: linear-gradient(#2c2c53, darkblue);
+  background-repeat: no-repeat;
+  height: 724px;
+}
+
+body form {
+  height: 446px;
+  padding-right: 40px;
+  background-color: linear-gradient(#2c2c53, darkblue);
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 30px 1px black;
+          box-shadow: 1px 1px 30px 1px black;
+}
+
+body form h1 {
+  margin-left: 40%;
+  color: white;
+  font-family: Trebuchet MS, sans-serif;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+body form input {
+  padding: 5px;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  border-radius: 4px;
+  height: 25px;
+  width: 70%;
+}
+
+body form #button {
+  text-align: center;
+  margin: 0px 70px;
+  width: 190px;
+  color: white;
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #9966cc;
+  padding: 10px 1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+body form #button1 {
+  text-align: center;
+  margin: 50px 1px;
+  width: 340px;
+  color: #9966cc;
+  font-family: Trebuchet MS, sans-serif;
+  background-color: white;
+  padding: 20px 1px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+/*# sourceMappingURL=1111111111.css.map */

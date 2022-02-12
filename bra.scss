@@ -1,0 +1,75 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: pink;
+
+    h4,
+    h5 {
+        font-family: Gill Sans, sans-serif;
+    }
+
+    form {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: auto;
+        justify-content: center;
+        background-color: white;
+        border-radius: 10px;
+
+        button {
+            cursor: pointer;
+            height: 40px;
+            border-radius: 8px;
+        }
+
+        .b {
+            padding-right: 70px;
+            color: white;
+            background-color: rgb(118, 180, 250);
+            border: 3px solid rgb(0, 119, 255);
+        }
+
+        .b:hover {
+            border: 3px solid rgb(118, 180, 250);
+            background-color: white;
+            color: rgb(118, 180, 250);
+            transition: 0.5s;
+        }
+        .b1:hover {
+            background-color: rgb(118, 180, 250);
+            border: 3px solid grey;
+            color: white;
+            transition: 0.5s;
+        }
+
+            .b1 {
+                padding-right: 100px;
+                color: rgb(0, 119, 255);
+                border: 2px solid grey;
+            }
+
+            input {
+                height: 25px;
+                width: 85%;
+                border-radius: 7px;
+                padding: 8px;
+                margin-top: 10px;
+                border: 2px solid grey;
+            }
+
+            .s {
+                margin-left: 5%;
+                border: none;
+                color: white;
+                width: 85%;
+                margin-bottom: 10%;
+                background-color: rgb(0, 119, 255);
+            }
+
+            a {
+                text-decoration: none;
+                margin-left: 25%;
+                color: rgb(0, 119, 255);
+            }
+        }
+    }

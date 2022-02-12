@@ -1,0 +1,39 @@
+
+form{
+    height: 30%;
+    width: 27%;
+}
+h2{
+    color: blue;
+    font-family: Arial Narrow, sans-serif;
+}
+input{
+    width: 50%;
+    height: 30px;
+}
+img{
+    margin-top: 0px;
+    width: 32%;
+     margin-left: 28%;
+}
+::placeholder{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 19px;
+    margin-right: 20px;
+    margin-left: 105px;
+}
+button{
+width: 53%;
+height: 30px;
+background: rgb(237,23,215);
+background: linear-gradient(90deg, rgba(237,23,215,1) 4%, rgba(101,9,121,1) 35%, rgba(2,210,253,1) 100%);
+border: none;
+color: white;
+}
+h6{
+    color: grey;
+    font-family: Arial Narrow, sans-serif;
+}

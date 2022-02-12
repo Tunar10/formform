@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("http://bgfons.com/upload/leaves_texture1267.jpg");
+  background-size: cover;
+  background-position: center top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s1 {
+  width: 60%;
+  border-radius: 5px;
+}
+
+.s1 .c1 {
+  width: 100%;
+}
+
+.s1 .c1 form {
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 4px 10px grey;
+          box-shadow: 2px 4px 10px grey;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.s1 .c1 form span {
+  color: brown;
+}
+
+.s1 .c1 form > h4 {
+  text-align: center;
+}
+
+.s1 .c1 form .r1 {
+  margin: 15px 0;
+}
+
+.s1 .c1 form .r1 > div label {
+  margin-left: 10px;
+}
+
+.s1 .c1 form .r1 > div input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.s1 .c1 form .r1 button {
+  width: 100%;
+  padding: 10px;
+}
+/*# sourceMappingURL=bootstrap.css.map */

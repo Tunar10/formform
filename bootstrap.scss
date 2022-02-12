@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("http://bgfons.com/upload/leaves_texture1267.jpg");
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 {
+    width: 60%;
+    border-radius: 5px;
+
+    .c1 {
+        width: 100%;
+        
+
+        form {
+            border-radius: 5px;
+         box-shadow: 2px 4px 10px grey;
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+
+            span {
+                color: brown;
+            }
+
+            &>h4 {
+                text-align: center;
+            }
+
+            .r1 {
+                margin: 15px 0;
+
+                &>div {
+                    label {
+                        margin-left: 10px;
+                    }
+
+                    input {
+                        width: 100%;
+                        padding: 10px;
+                        outline: none;
+                    }
+                }
+                button{
+                    width: 100%;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

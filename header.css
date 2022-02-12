@@ -1,0 +1,98 @@
+header {
+    background-color: #05051f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div:nth-child(1) {
+    width: 35%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header div:nth-child(1) span:nth-child(1) {
+    width: 30%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+header div:nth-child(1) span:nth-child(2){
+    width: 60%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+header div:nth-child(1) span:nth-child(2):hover{
+    color: blue;
+    filter: blur(1px);
+}
+
+header div:nth-child(1) span:nth-child(1) {
+    background-color: #1d418d;
+}
+
+
+
+header div:nth-child(2) {
+    display: flex;
+    width: 35%;
+}
+
+header div:nth-child(2) form {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+header div:nth-child(2) form{
+    border-bottom: 1px solid grey;
+    padding: 0 3px;
+    position: relative;
+    height: 25px;
+}
+header div:nth-child(2) form button{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+}
+header div:nth-child(2) form button img {
+    width: 25px;
+    height: 25px;
+}
+header div:nth-child(2) form input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+header div:nth-child(2) span{
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div:nth-child(2) span img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+header div:nth-child(2) span img[alt="fb"]:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+header div:nth-child(2) span img[alt="ins"]:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+header div:nth-child(2) span img[alt="tw"]:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}

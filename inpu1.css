@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 7, 7);
+   min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section{
+    padding-left: 300px;
+}
+.container form{
+width: 50%;
+
+}
+.container form .inpDiv{
+    margin: 10px 0;
+    width: 100px;
+    margin-right: 800px;
+}
+::placeholder{
+    text-transform: uppercase;
+}
+.container form .inpDiv input,.container form .inpDiv textarea{
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+    width: 370%;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container form .inpDiv textarea{
+    height: 160px;
+    width: 370px;
+}
+
+#btnDiv button{
+    height: 100%;
+    width: 130%;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+}
+#btnDiv button i{
+  color: white;
+  font-size: 18px;
+}
+
+
+
+.container .section{
+width: 40%;
+position: relative;
+}
+.section .info{
+    margin: 20px 0;
+}
+.section .info a, .section .info span{
+    color: rgb(54, 52, 52);
+    font-size: 18px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.section .info i{
+    color: rgb(182, 180, 180);
+    font-size: 22px;
+}
+.icons{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.icons i{
+    font-size: 22px;
+    background-color: rgb(58, 54, 54);
+    color: white;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 1;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#other{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    bottom: 0;
+    color: grey;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p{
+    margin-left: 300px;
+}
+hr{
+    width: 300px;
+}

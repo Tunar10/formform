@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(250, 195, 175)
+}
+.in1 input{
+    width: 13%;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: inherit;
+    }
+    button{
+   background-color: coral;
+   box-shadow: 5px 5px blue;
+    }
