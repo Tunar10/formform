@@ -25,12 +25,14 @@ body .container {
 }
 
 body .container input {
-  padding: 5px;
+  padding: 5px 1px;
   border-radius: 3px;
   border: 1px solid grey;
+  padding: 5px;
 }
 
 body .container .row .r1 button {
+  width: 220px;
   border-radius: 5px;
   height: 30px;
   border: none;
@@ -45,6 +47,12 @@ body .container .row .r1 button:hover {
 }
 
 body .container .row .r2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
 }
 
@@ -56,6 +64,7 @@ body .container .row .r2 input {
 }
 
 body .container .row .r3 {
+  margin-left: -20px;
   display: block;
 }
 
